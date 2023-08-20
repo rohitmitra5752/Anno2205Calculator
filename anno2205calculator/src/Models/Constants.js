@@ -53,6 +53,9 @@ const Needs = {
 const Resources = {
     Biopolymers: 'Biopolymers',
     ConstructOBots: 'ConstructOBots',
+    SuperAlloys: 'SuperAlloys',
+    MetalFoam: 'MetalFoam',
+    TitaniumPlating: 'TitaniumPlating',
     OrganicFood: 'OrganicFood',
     LuxuryFood: 'LuxuryFood',
     Water: 'Water',
@@ -75,8 +78,6 @@ const Resources = {
     Beef: 'Beef',
     SynapticCircuits: 'SynapticCircuits',
     MultispecPrisms: 'MultispecPrisms',
-    SuperAllowloys: 'SuperAllowloys',
-    MetalFoam: 'MetalFoam',
     CannedFood: 'CannedFood',
     Stimulants: 'Stimulants',
     QuantumComputers: 'QuantumComputers',
@@ -89,7 +90,6 @@ const Resources = {
     MethaneIce: 'MethaneIce',
     QubitProcessors: 'QubitProcessors',
     SuperCoolants: 'SuperCoolants',
-    TitaniumPlating: 'TitaniumPlating',
     LunarLunch: 'LunarLunch',
     Bioenhancers: 'Bioenhancers',
     AntiGravCompensators: 'AntiGravCompensators',
@@ -108,8 +108,9 @@ const Resources = {
 };
 
 const Buildings = {
-    SunflowerFarm: 'SunflowerFarm',
     BiopolymerFactory: 'BiopolymerFactory',
+    RobotAssemblyHall: 'RobotAssemblyHall',
+    SunflowerFarm: 'SunflowerFarm',
     RiceFarm: 'RiceFarm',
     DesalinizationPlant: 'DesalinizationPlant',
     Windpark: 'Windpark',
@@ -117,7 +118,6 @@ const Buildings = {
     Infodrome: 'Infodrome',
     FeldsparQuarry: 'FeldsparQuarry',
     CobaltMine: 'CobaltMine',
-    RobotAssemblyHall: 'RobotAssemblyHall',
     FruitPlantation: 'FruitPlantation',
     VitaminCondensor: 'VitaminCondensor',
     AlgaeFarm: 'AlgaeFarm',
@@ -145,16 +145,23 @@ const Buildings = {
     CompressionChamber: 'CompressionChamber',
     MolybdenumMine: 'MolybdenumMine',
     NeuroModuleFactory: 'NeuroModuleFactory',
+    CoreIceDriller: 'CoreIceDriller',
+    OxygenSeperator: 'OxygenSeperator',
+    IonWelder: 'IonWelder',
+    AeroponicFarm: 'AeroponicFarm',
+    SpaceGalley: 'SpaceGalley',
+    KREEPGatherer: 'KREEPGatherer',
+    CyberneticsFactory: 'CyberneticsFactory',
 };
 
 const BuildingsByResource = {
     [Resources.Biopolymers]: Buildings.BiopolymerFactory,
-    [Resources.Bioresin]: Buildings.SunflowerFarm,
+    [Resources.ConstructOBots]: Buildings.RobotAssemblyHall,
     [Resources.OrganicFood]: Buildings.RiceFarm,
+    [Resources.Bioresin]: Buildings.SunflowerFarm,
     [Resources.Water]: Buildings.DesalinizationPlant,
     [Resources.NanoCeramics]: Buildings.FeldsparQuarry,
     [Resources.Cobalt]: Buildings.CobaltMine,
-    [Resources.ConstructOBots]: Buildings.RobotAssemblyHall,
     [Resources.Fruit]: Buildings.FruitPlantation,
     [Resources.VitaDrinks]: Buildings.VitaminCondensor,
     [Resources.Algae]: Buildings.AlgaeFarm,
@@ -180,4 +187,13 @@ const BuildingsByResource = {
     [Resources.Molybdenum]: Buildings.MolybdenumMine,
     [Resources.NeruoImplants]: Buildings.NeuroModuleFactory,
     [Resources.Titanium]: Buildings.TitaniumMine,
+    [Resources.MoonIce]: Buildings.CoreIceDriller,
+    [Resources.Oxygen]: Buildings.OxygenSeperator,
+    [Resources.TitaniumPlating]: Buildings.IonWelder,
+    [Resources.MoonCrops]: Buildings.AeroponicFarm,
+    [Resources.LunarLunch]: Buildings.SpaceGalley,
+    [Resources.RareEarthElements]: Buildings.KREEPGatherer,
+    [Resources.Bioenhancers]: Buildings.CyberneticsFactory,
 };
+
+export {Environments, PopulationClasses, PopulationClassesByEnvironment, Needs, Resources, Buildings, BuildingsByResource}
