@@ -3,8 +3,12 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './Views/js/App';
 import reportWebVitals from './reportWebVitals';
+import { BootTasks } from './Controllers/BootTasks';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+BootTasks.SetUpProductionChain();
+const root = ReactDOM.createRoot(
+  document.getElementById('root') as HTMLElement
+);
 root.render(
   <React.StrictMode>
     <App />
