@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Anno2205Calculator/static/css/main.3b8e150d.css",
+    "main.js": "/Anno2205Calculator/static/js/main.c4589fc5.js",
+    "static/js/787.80313923.chunk.js": "/Anno2205Calculator/static/js/787.80313923.chunk.js",
+    "static/media/Synthetics.png": "/Anno2205Calculator/static/media/Synthetics.fb41b026d223e09cff42.png",
+    "static/media/Operators.png": "/Anno2205Calculator/static/media/Operators.b1ac1694d8478b37ba1a.png",
+    "static/media/Executives.png": "/Anno2205Calculator/static/media/Executives.7cf2fad240ef8a42151c.png",
+    "static/media/Investors.png": "/Anno2205Calculator/static/media/Investors.ea5329f027d3861853a3.png",
+    "static/media/Officers.png": "/Anno2205Calculator/static/media/Officers.5a8202822c24e0c6ac44.png",
+    "static/media/Scientists.png": "/Anno2205Calculator/static/media/Scientists.c2b210514349473caabb.png",
+    "static/media/Protectors.png": "/Anno2205Calculator/static/media/Protectors.3058e73db0557b6b0dbd.png",
+    "static/media/Workers.png": "/Anno2205Calculator/static/media/Workers.07693f018ca27a90bb2c.png",
+    "static/media/Miners.png": "/Anno2205Calculator/static/media/Miners.4fd793540d63f49d71ed.png",
+    "static/media/Missing.png": "/Anno2205Calculator/static/media/Missing.f362a89a6c38e6f81736.png",
+    "index.html": "/Anno2205Calculator/index.html",
+    "main.3b8e150d.css.map": "/Anno2205Calculator/static/css/main.3b8e150d.css.map",
+    "main.c4589fc5.js.map": "/Anno2205Calculator/static/js/main.c4589fc5.js.map",
+    "787.80313923.chunk.js.map": "/Anno2205Calculator/static/js/787.80313923.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3b8e150d.css",
+    "static/js/main.c4589fc5.js"
+  ]
+}
