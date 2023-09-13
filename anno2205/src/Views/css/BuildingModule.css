@@ -1,3 +1,27 @@
+.building-module {
+    display: flex;
+    flex-direction: column;
+    border-width: 1px;
+    border-style: groove;
+    border-color: #121212;
+    margin: 5px 2px;
+}
+
+.building-module .building-module-item {
+    display: flex;
+    flex-direction: row;
+    align-items: baseline;
+}
+
+.building-module .building-module-item .building-module-name, .building-module .building-module-item .building-module-count {
+    width: 200px;
+    padding: 2px 10px;
+}
+
+.building-module-count {
+    text-align: end;
+}
+
 .building-module .building-module-child {
     margin: 0 30px;
 }

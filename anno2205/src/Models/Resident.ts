@@ -1,5 +1,17 @@
 import { PopulationClass } from "./PopulationClasses";
 import { ResourceDemand, ResourceNames, Resources } from "./Resource";
+import MissingPic from "../Views/img/Missing.png";
+import WorkerPic from "../Views/img/Workers.png";
+import ExecutivePic from "../Views/img/Executives.png";
+import OperatorPic from "../Views/img/Operators.png";
+import InvestorPic from "../Views/img/Investors.png";
+import SyntheticPic from "../Views/img/Synthetics.png";
+import ProtectorPic from "../Views/img/Protectors.png";
+import ScientistPic from "../Views/img/Scientists.png";
+import MinerPic from "../Views/img/Miners.png";
+import OfficerPic from "../Views/img/Officers.png";
+// import EcologistPic from "../Views/img/Ecologists.png";
+// import FieldResearcherPic from "../Views/img/FieldResearchers.png";
 
 export class Resident {
     residentType: PopulationClass;
@@ -125,4 +137,18 @@ export const Residents = {
         new ResourceDemand(Resources[ResourceNames.AllWeatherParkas], 1),
         new ResourceDemand(Resources[ResourceNames.QuantumComputers], 1),
     ]),
+}
+
+export const PicByPopulationClass = {
+    [PopulationClass.Workers]: WorkerPic,
+    [PopulationClass.Operators]: OperatorPic,
+    [PopulationClass.Executives]: ExecutivePic,
+    [PopulationClass.Investors]: InvestorPic,
+    [PopulationClass.Synthetics]: SyntheticPic  ,
+    [PopulationClass.Protectors]: ProtectorPic,
+    [PopulationClass.Scientists]: ScientistPic,
+    [PopulationClass.Miners]: MinerPic,
+    [PopulationClass.Officers]: OfficerPic,
+    [PopulationClass.Ecologists]: MissingPic, //To Be Fixed
+    [PopulationClass.FieldResearchers]: MissingPic, //To Be Fixed
 }
